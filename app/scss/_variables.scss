@@ -1,0 +1,34 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$gray-900:				#1d1d1b;
+$gray-200:				#ededed;
+
+// Navbar
+//$navbar-padding-x:			$navbar-padding-y;
+
+//$navbar-brand-height:			2rem;
+//$navbar-brand-padding-y:		0;
+//$navbar-dark-toggler-border-color:	transparent;
+//$navbar-nav-link-padding-x:		2rem;
+
+// scss-docs-start font-variables
+$font-family-sans-serif:		Tarot, sans-serif;
+
+// scss-docs-start headings-variables
+$headings-font-family:			Tarot, sans-serif;
+$headings-font-weight:			400;
+$headings-margin-bottom:		$spacer;
+
+// scss-docs-start form-input-variables
+$input-bg:				transparent;
+$input-color:				$white;
+$input-focus-bg:			transparent;
+$input-focus-color:			$white;
+$input-placeholder-color:		$white;
+
+//$line-height-base:			1.8;
+
+//////////////////////////////////////////////////////////////////////
+
+@import '../node_modules/bootstrap/scss/bootstrap';

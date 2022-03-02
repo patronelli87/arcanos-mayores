@@ -1,0 +1,214 @@
+@import 'variables';
+@import '/arcanos-mayores/node_modules/fullpage.js/dist/fullpage.min.css';
+
+@font-face {
+  font-family: 'Tarot', sans-serif;
+  src: url('/arcanos-mayores/app/assets/fonts/Tarot.otf') format('opentype');
+}
+
+.body-bg {
+  background-blend-mode: luminosity;
+  background-color: #fafafa;
+  background-image: url('/arcanos-mayores/app/assets/img/versoFIN-ID.jpg');
+  background-position: center;
+  background-size: 100%;
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card {
+  &__frame {
+    border-radius: 4rem;
+    cursor: zoom-in;
+    height: 1200px;
+    margin: auto;
+    overflow: hidden;
+    width: 600px;
+    zoom: 0.25;
+  }
+
+  &__picture {
+    background-image: url('/arcanos-mayores/app/assets/img/versoFIN-ID.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+  }
+
+  &__picture--I {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -268px -300px;
+  }
+
+  &__picture--II {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -928px -299px;
+  }
+
+  &__picture--III {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -1588px -299px;
+  }
+
+  &__picture--IIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -268px -1559px;
+  }
+
+  &__picture--V {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -928px -1559px;
+  }
+
+  &__picture--VI {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot1of13FIN-ID.jpg');
+    background-position: -1588px -1559px;
+  }
+
+  &__picture--VII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -270px -300px;
+  }
+
+  &__picture--VIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -930px -299px;
+  }
+
+  &__picture--VIIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -1590px -299px;
+  }
+
+  &__picture--X {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -270px -1560px;
+  }
+
+  &__picture--XI {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -930px -1559px;
+  }
+
+  &__picture--XII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot2of13FIN-ID.jpg');
+    background-position: -1590px -1559px;
+  }
+
+  &__picture--XIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -269px -300px;
+  }
+
+  &__picture--XIIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -928px -299px;
+  }
+
+  &__picture--XV {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -1588px -299px;
+  }
+
+  &__picture--XVI {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -269px -1559px;
+  }
+
+  &__picture--XVII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -929px -1559px;
+  }
+
+  &__picture--XVIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -1589px -1559px;
+  }
+
+  &__picture--XIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -268px -300px;
+  }
+
+  &__picture--XIIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -928px -299px;
+  }
+
+  &__picture--XV {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -1588px -299px;
+  }
+
+  &__picture--XVI {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -269px -1559px;
+  }
+
+  &__picture--XVII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -929px -1559px;
+  }
+
+  &__picture--XVIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot3of13FIN-ID.jpg');
+    background-position: -1589px -1559px;
+  }
+
+  &__picture--XVIIII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot4of13FIN-ID.jpg');
+    background-position: -272px -300px;
+  }
+
+  &__picture--XX {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot4of13FIN-ID.jpg');
+    background-position: -932px -299px;
+  }
+
+  &__picture--XXI {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot4of13FIN-ID.jpg');
+    background-position: -1592px -299px;
+  }
+
+  &__picture--XXII {
+    background-image: url('/arcanos-mayores/app/assets/img/A04tarot13of13FIN-ID.jpg');
+    background-position: -1589px -1559px;
+  }
+
+  &__row {
+    min-height: 100vh;
+  }
+}
+  
+.form-control {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: $black;
+  font-family: Tarot, sans-serif;
+}
+
+.modal-body {
+  .card__frame {
+    zoom: 1;
+  }
+
+  .card__picture {
+    cursor: zoom-out;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .card__frame {
+    zoom: 0.5;
+  }
+}
